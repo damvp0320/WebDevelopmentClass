@@ -1,0 +1,83 @@
+/* General Page Styling */
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2C;
+    font-family: Arial, sans-serif;
+}
+
+/* Container Styling */
+.registerContainer {
+    background: linear-gradient(135deg, #2C2C2C, #8B0000, #FF0000);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    color: white;
+    text-align: center;
+}
+
+/* Title Styling */
+.tittle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Input Fields */
+.InputContainer {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.inputsTittle {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Button Styling */
+.btnContainer {
+    margin-top: 20px;
+}
+
+.btnRegister {
+    background-color: #FF0000;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btnRegister:hover {
+    background-color: #8B0000;
+}
